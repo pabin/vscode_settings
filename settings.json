@@ -1,0 +1,57 @@
+{
+    "editor.minimap.enabled": false,
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "toggle",
+    "git.confirmSync": false,
+    "dart.flutterSdkPath": "/home/raj/flutter",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.occurrencesHighlight": true,
+    "editor.selectionHighlight": true,
+    // "editor.tabSize": 0,
+    "editor.renderIndentGuides": true,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.horizontalScrollbarSize": 15,    
+    // "workbench.editor.tabSizing": "fit",
+    "workbench.colorCustomizations": {
+        // "list.inactiveSelectionBackground": "#C5DEF0",
+        "sideBar.background": "#0A0A0A",
+        // "sideBar.foreground": "#0A0A0A",
+        "editor.background": "#000000",
+        "editor.foreground": "#B9B4B4",
+        // "sideBarSectionHeader.background": "#5F5F5F",
+        // "sideBarSectionHeader.foreground": "#000000",
+        "activityBar.border": "#2F2F2F",
+        "activityBar.background": "#0A0A0A",
+        "statusBar.background": "#0A0A0A",
+        // "statusBar.height": 10,
+        // "scrollbarSlider.activeBackground": "#77D4CB",
+        // "scrollbarSlider.hoverBackground": "#8CE6DA",
+        // "badge.background": "#81CA91"
+
+        // "editor.selectionBackground": "#135564",
+        // "editor.selectionHighlightBackground": "#135564",
+        "editor.lineHighlightBackground": "#0A0A0A",
+
+        "editor.scrollbar.verticalScrollbarSize": 35,
+        "editor.scrollbar.horizontal": "visible",
+        "editor.scrollbar.horizontalScrollbarSize": 22,  
+    },
+    "editor.tokenColorCustomizations": {
+        // "numbers": "#2247EB",
+        // "comments": "#6D929C",
+        // "functions": "#0D7C28"
+    },
+
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "editor.fontSize": 17,
+    "editor.rulers": [
+    
+    ],
+    "workbench.colorTheme": "Brogrammer",
+    "dart.analyzerPath": null,
+}
