@@ -1,94 +1,96 @@
 {
-    "editor.minimap.enabled": false,
-    "dart.debugExternalLibraries": true,
-    "dart.debugSdkLibraries": false,
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": true,
-    "window.menuBarVisibility": "toggle",
-    "git.confirmSync": false,   
-    "dart.flutterSdkPath": "/home/raj/flutter",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.occurrencesHighlight": false,
-    "editor.selectionHighlight": false,
-    // "editor.tabSize": 2,
-    "editor.renderIndentGuides": true,
-    
-    // "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 17,
+  "workbench.editorAssociations": [
 
-    // "workbench.editor.tabSizing": "fit",
-    "workbench.colorCustomizations": {
-        // "list.inactiveSelectionBackground": "#C5DEF0",
-        "sideBar.background": "#0A0A0A",
-        // "sideBar.foreground": "#0A0A0A",
-        "editor.background": "#000000",
-        "editor.foreground": "#B9B4B4",
-        // "sideBarSectionHeader.background": "#5F5F5F",
-        // "sideBarSectionHeader.foreground": "#000000",
-        "activityBar.border": "#2F2F2F",
-        "activityBar.background": "#0A0A0A",
-        "statusBar.background": "#0A0A0A",
-        // "statusBar.height": 10,
-        // "scrollbarSlider.activeBackground": "#77D4CB",
-        // "scrollbarSlider.hoverBackground": "#8CE6DA",
-        // "badge.background": "#81CA91"
+  ],
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+  "git.confirmSync": false,   
+  "dart.flutterSdkPath": "/home/raj/flutter",
+  "liveServer.settings.donotShowInfoMsg": true,
+  // "workbench.iconTheme": "material-icon-theme",
+  "editor.occurrencesHighlight": false,
+  "editor.selectionHighlight": false,
+  "editor.tabSize": 5,
+  "editor.renderIndentGuides": true,
+  
+  // "editor.scrollbar.verticalScrollbarSize": 0,
+  // "editor.scrollbar.horizontal": "hidden",
+  // "editor.scrollbar.horizontalScrollbarSize": 0,    
 
-        // "editor.selectionBackground": "#135564",
-        // "editor.selectionHighlightBackground": "#135564",
-        "editor.lineHighlightBackground": "#1A1A1A",
+  // "workbench.editor.tabSizing": "fit",
+  "workbench.colorCustomizations": {
+      // "list.inactiveSelectionBackground": "#C5DEF0",
+      "sideBar.background": "#0A0A0A",
+      // "sideBar.foreground": "#0A0A0A",
+      "editor.background": "#000000",
+      "editor.foreground": "#B9B4B4",
+      // "sideBarSectionHeader.background": "#5F5F5F",
+      // "sideBarSectionHeader.foreground": "#000000",
+      "activityBar.border": "#2F2F2F",
+      "activityBar.background": "#0A0A0A",
+      "statusBar.background": "#0A0A0A",
+      "statusBar.height": "20px",
+      "statusBar.debuggingBackground": "#511f1f",
 
-        "editor.scrollbar.verticalScrollbarSize": 0,
-        // "editor.scrollbar.horizontal": "visible",
-        "editor.scrollbar.horizontalScrollbarSize": 0,    
+      // "scrollbarSlider.activeBackground": "#77D4CB",
+      // "scrollbarSlider.hoverBackground": "#8CE6DA",
+      // "badge.background": "#81CA91"
 
-        "editorIndentGuide.activeBackground": "#5A5A5A",
-        "editorIndentGuide.background": "#1A1A1A",    
+      // "editor.selectionBackground": "#135564",
+      // "editor.selectionHighlightBackground": "#135564",
+      "editor.lineHighlightBackground": "#1A1A1A",
+      // "list.inactiveSelectionBackground": "#f0f",
+      "editor.inactiveSelectionBackground": "#2A2A2A",
+      // "editor.scrollbar.verticalScrollbarSize": 0,
+      // "editor.scrollbar.horizontal": "visible",
+      // "editor.scrollbar.horizontalScrollbarSize": 0,    
 
-        // "python.linting.pylintEnabled": false,
+      "editorIndentGuide.activeBackground": "#5A5A5A",
+      "editorIndentGuide.background": "#1A1A1A",    
 
-    },
-    "editor.tokenColorCustomizations": {
-        "semanticHighlighting": true,
-        "[Brogrammer]": {
-          "semanticHighlighting": true
-        },
+  },
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+                {
+      "scope": "meta.function-call.generic.python",
+      "settings": {
+      "foreground": "#8E44AD"
+                  }
+                }
+              ],
+        
+      // "comments": "#98C379",
+      // "strings": "#E05848",
+      // "strings": "#0D7C28",
+      // "keywords": "#117A65",
+      // "numbers": "#2247EB",
+      // "comments": "#6D929C",
+      // "functions": "#0D7C28"
+  },
 
-        // "comments": "#98C379",
-        // "strings": "#E05848",
-        // "strings": "#0D7C28",
-        // "keywords": "#4D78CC",
-        // "methods": "#4D78CC",
-
-        // "numbers": "#2247EB",
-        // "comments": "#6D929C",
-        // "functions": "#0D7C28"
-        // "borgrammerRules": [
-        //     {
-        //         "scope": "meta.function-call.generic.python",
-        //         "settings": {
-        //             "foreground": "#FF0000"
-        //                     }
-        //     }
-        //   ]        
-    },
-
-    "bracketPairColorizer.showHorizontalScopeLine": false,
-    "editor.fontSize": 17,
-    "editor.rulers": [
-    
-    ],
-    "dart.analyzerPath": null,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Microsoft",
-    "[markdown]": {
-        "editor.wordWrap": "on",
-        "editor.quickSuggestions": false
-    },
-    "[css]": {
-    "breadcrumbs.showFiles": true,
-        "editor.suggest.insertMode": "replace"
-    },
-    "workbench.colorTheme": "Brogrammer",
+  // "bracketPairColorizer.showHorizontalScopeLine": false,
+  "editor.rulers": [
+  
+  ],
+  "dart.analyzerPath": null,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Microsoft",
+  "[markdown]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": false
+  },
+  "[css]": {
+  "breadcrumbs.showFiles": true,
+      "editor.suggest.insertMode": "replace"
+  },
+  "workbench.colorTheme": "Brogrammer",
+  "files.autoSave": "off",
+  "workbench.iconTheme": "material-icon-theme",
 
 }
