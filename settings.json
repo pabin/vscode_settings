@@ -9,10 +9,12 @@
     "dart.flutterSdkPath": "/home/raj/flutter",
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.occurrencesHighlight": true,
-    "editor.selectionHighlight": true,
+    "editor.occurrencesHighlight": false,
+    "editor.selectionHighlight": false,
     // "editor.tabSize": 2,
     "editor.renderIndentGuides": true,
+    
+    // "editor.semanticHighlighting.enabled": false,
 
     // "workbench.editor.tabSizing": "fit",
     "workbench.colorCustomizations": {
@@ -35,17 +37,39 @@
         // "editor.selectionHighlightBackground": "#135564",
         "editor.lineHighlightBackground": "#1A1A1A",
 
-        "editor.scrollbar.verticalScrollbarSize": 50,
+        "editor.scrollbar.verticalScrollbarSize": 0,
         // "editor.scrollbar.horizontal": "visible",
-        "editor.scrollbar.horizontalScrollbarSize": 35,    
+        "editor.scrollbar.horizontalScrollbarSize": 0,    
 
         "editorIndentGuide.activeBackground": "#5A5A5A",
-        "editorIndentGuide.background": "#1A1A1A"        
+        "editorIndentGuide.background": "#1A1A1A",    
+
+        // "python.linting.pylintEnabled": false,
+
     },
     "editor.tokenColorCustomizations": {
+        "semanticHighlighting": true,
+        "[Brogrammer]": {
+          "semanticHighlighting": true
+        },
+
+        // "comments": "#98C379",
+        // "strings": "#E05848",
+        // "strings": "#0D7C28",
+        // "keywords": "#4D78CC",
+        // "methods": "#4D78CC",
+
         // "numbers": "#2247EB",
         // "comments": "#6D929C",
         // "functions": "#0D7C28"
+        // "borgrammerRules": [
+        //     {
+        //         "scope": "meta.function-call.generic.python",
+        //         "settings": {
+        //             "foreground": "#FF0000"
+        //                     }
+        //     }
+        //   ]        
     },
 
     "bracketPairColorizer.showHorizontalScopeLine": false,
@@ -53,7 +77,18 @@
     "editor.rulers": [
     
     ],
-    "workbench.colorTheme": "Brogrammer",
     "dart.analyzerPath": null,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "[css]": {
+    "breadcrumbs.showFiles": true,
+        "editor.suggest.insertMode": "replace"
+    },
+    "workbench.colorTheme": "Brogrammer",
 
 }
