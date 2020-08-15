@@ -7,7 +7,7 @@
   "workbench.editorAssociations": [
 
   ],
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "window.menuBarVisibility": "toggle",
   "git.confirmSync": false,   
   "dart.flutterSdkPath": "/home/raj/flutter",
@@ -15,7 +15,20 @@
   // "workbench.iconTheme": "material-icon-theme",
   "editor.occurrencesHighlight": false,
   "editor.selectionHighlight": false,
-  "editor.tabSize": 5,
+  
+  "[typescript]": {
+    "editor.tabSize": 2
+  },  
+  "[javascript]": {
+    "editor.tabSize": 2
+  },   
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  }, 
+  "[python]": {
+    "editor.tabSize": 8
+  },    
+  
   "editor.renderIndentGuides": true,
   
   // "editor.scrollbar.verticalScrollbarSize": 0,
@@ -36,6 +49,9 @@
       "statusBar.background": "#0A0A0A",
       "statusBar.height": "20px",
       "statusBar.debuggingBackground": "#511f1f",
+      "tab.activeBackground": "#0A0A0A",
+
+
 
       // "scrollbarSlider.activeBackground": "#77D4CB",
       // "scrollbarSlider.hoverBackground": "#8CE6DA",
@@ -59,18 +75,29 @@
                 {
       "scope": "meta.function-call.generic.python",
       "settings": {
-      "foreground": "#8E44AD"
+      "foreground": "#9B59B6"
                   }
                 }
               ],
         
       // "comments": "#98C379",
       // "strings": "#E05848",
-      // "strings": "#0D7C28",
+      "strings": "#D4AC0D",
       // "keywords": "#117A65",
       // "numbers": "#2247EB",
       // "comments": "#6D929C",
       // "functions": "#0D7C28"
+
+      // "[One Dark Pro]": {
+      //   "textMateRules": [
+      //     {
+      //       "scope": ["source.python"],
+      //       "settings": {
+      //         "foreground": "#e06c75"
+      //       }
+      //     }
+      //   ]
+      // }      
   },
 
   // "bracketPairColorizer.showHorizontalScopeLine": false,
@@ -92,5 +119,6 @@
   "workbench.colorTheme": "Brogrammer",
   "files.autoSave": "off",
   "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
 
 }
