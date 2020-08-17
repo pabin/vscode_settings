@@ -7,7 +7,7 @@
   "workbench.editorAssociations": [
 
   ],
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "window.menuBarVisibility": "toggle",
   "git.confirmSync": false,   
   "dart.flutterSdkPath": "/home/raj/flutter",
@@ -51,6 +51,14 @@
       "statusBar.debuggingBackground": "#511f1f",
       "tab.activeBackground": "#0A0A0A",
 
+      // "editor.wordHighlightBackground": "#0066ff8a",
+      // "editor.wordHighlightStrongBackground": "#0066ff2a",
+      "editor.selectionBackground": "#135564",
+      "editor.selectionHighlightBackground": "#135564",
+     
+      // "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+      // "editor.findMatchHighlightBackground": "#ff7b00a1", //Current SEARCH MATCH
+
 
 
       // "scrollbarSlider.activeBackground": "#77D4CB",
@@ -75,18 +83,75 @@
                 {
       "scope": "meta.function-call.generic.python",
       "settings": {
-      "foreground": "#9B59B6"
+      "foreground": "#9B59B6",
+      "fontStyle": "bold"
                   }
-                }
-              ],
+                },
+      {
+        "scope": "function",
+        "settings": {
+        "foreground": "#9B59B6",
+        "fontStyle": "bold"
+                    }
+      },
+
+      {
+      "scope": "keyword.operator",
+      "settings": {
+          "foreground": "#E10F86",
+      }
+      },
+      {
+        "scope": "variable.other",
+        // "scope": "punctuation",
+
+        "settings": {
+            "foreground": "#B9B4B4", 
+            // "fontStyle": "bold"
+        }
+      },
+      {
+        // "scope": "variable.other",
+        "scope": "punctuation",
+
+        "settings": {
+            // "foreground": "#E10F86", 
+            // "fontStyle": "bold"
+        }
+      },
+      {
+      "scope": "meta.object-literal.key.js",
+      "settings": {
+          "foreground": "#D4AC0D",
+          // "fontStyle": "bold"
+      }
+      },
+      {
+        "scope": "keywords",
+        "settings": {
+          "foreground": "#D4AC0D",
+          "fontStyle": "bold"
+        }
+      },      
+
+      ],
         
+
+      // "types": "#2E86C1",
+      // "types": "#C0392B",
+      // "variables": "#B9B4B4",
+      "variables": "#B668E3",
+      // "variables": "#38BFB9",
       // "comments": "#98C379",
-      // "strings": "#E05848",
-      "strings": "#D4AC0D",
+      // "strings": "#D4AC0D",
+      // "strings": "#95BB3E",
+      "strings": "#E46E1C",
       // "keywords": "#117A65",
+      // "keywords": "#FF6E00",
       // "numbers": "#2247EB",
       // "comments": "#6D929C",
-      // "functions": "#0D7C28"
+      "functions": "#2ECC71"
+      // "functions": "#D4AC0D"
 
       // "[One Dark Pro]": {
       //   "textMateRules": [
@@ -100,10 +165,23 @@
       // }      
   },
 
+  "editor.semanticTokenColorCustomizations": {
+    // "enabled": true, // enable semantic highlighting for all themes
+    "rules": {
+        // "*.static": {
+        //   "foreground": "#ff0000",
+        //   "fontStyle": "bold"
+        // },
+        // "type": {
+        //   "foreground": "#ff0000"
+        // },
+        "*.readonly": { "foreground": "#95BB3E" },
+        // "*.declaration": { "foreground": "#B5D005" }
+    }
+  },
+
   // "bracketPairColorizer.showHorizontalScopeLine": false,
-  "editor.rulers": [
-  
-  ],
+
   "dart.analyzerPath": null,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -116,9 +194,66 @@
   "breadcrumbs.showFiles": true,
       "editor.suggest.insertMode": "replace"
   },
-  "workbench.colorTheme": "Brogrammer",
   "files.autoSave": "off",
   "workbench.iconTheme": "material-icon-theme",
-  "git.autofetch": true,
+  // "git.autofetch": true,
+  "editor.autoClosingBrackets": "always",
 
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "full": {
+        "custom": {
+          "dark": {
+            "borderWidth": "0 0 2px 0",
+            "borderColor": "#DFDFDF",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          },
+          "light": {
+            "borderWidth": "0 0 2px 0",
+            "borderColor": "brown",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          }
+        }
+      }
+
+      // "left": {
+      //   "underline": "yellow"
+      // },
+      // "right": {
+      //   "surround": "#155FFA"
+      // },
+      // "name": {
+      //   "highlight": "rgba(180, 20, 80, 0.3)"
+      // }
+    },
+    "closing": {
+      "full": {
+        "custom": {
+          "dark": {
+            "borderWidth": "0 0 2px 0",
+            "borderColor": "#DFDFDF",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          },
+          "light": {
+            "borderWidth": "0 0 2px 0",
+            "borderColor": "brown",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          }
+        }
+      }
+    }
+  },
+  "workbench.colorTheme": "Brogrammer",
+  // "editor.semanticHighlighting.enabled": false
+
+  // "highlightSelections.borderWidth": "2px"
+  // "textmarker.enableWholeMatch": true
 }
