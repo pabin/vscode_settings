@@ -4,9 +4,6 @@
   "dart.debugSdkLibraries": false,
   "window.zoomLevel": 0,
   "editor.fontSize": 17,
-  "workbench.editorAssociations": [
-
-  ],
   "workbench.activityBar.visible": false,
   "window.menuBarVisibility": "toggle",
   "git.confirmSync": false,   
@@ -125,6 +122,7 @@
           "entity.name.type.class",
           "storage.modifier.async.js",
           "variable.language.super.js",
+          "support.function.console.js"
           // "storage.type.js"
         ],
         "settings": {
@@ -150,7 +148,10 @@
           "variable.other.property",
           "meta.attribute.python",
           "punctuation.separator.key-value",
-          "meta.object-literal.key.js",
+          // "meta.object-literal.key.js",
+          "variable.other.object.property.js",
+          "support.class.console.js",
+          "entity.other.inherited-class",
         ],
         "settings": {
           "foreground": "#E74C3C",
@@ -158,15 +159,15 @@
         }
       },      
       {
-        "scope": "string.quoted.docstring.multi.python",
+        "scope": "meta.object-literal.key.js",
+        // "scope": "meta.method.declaration.js",
         "settings": {
-          // "foreground": "#606060",
+          "foreground": "#B9B4B4",
           // "fontStyle": "bold"
         }
       },         
       {
-        // "scope": "variable.other.readwrite.js",
-        "scope": "entity.name.function",
+        "scope": ["entity.name.function", "support.function.console.js"],
         "settings": {
           "foreground": "#3884F9",
           // "fontStyle": "bold"
@@ -175,14 +176,17 @@
       {
         "scope": "entity.other.inherited-class",
         "settings": {
-          "foreground": "#E74C3C",
+          // "foreground": "#E74C3C",
           "fontStyle": "", 
         }
       },  
       {
-        "scope": "support.type",
+        // "scope": "support.type",
+        "scope": "variable.other.readwrite.js",
+
         "settings": {
-          // "foreground": "#11B1B8",
+          // "foreground": "#E74C3C",
+          // "foreground": "#F14D4D",
           // "fontStyle": "bold", 
         }
       },               
@@ -201,10 +205,31 @@
         }
       },   
       {
-        "scope": "entity.name.type.class",,
+        "scope": "meta.template.expression.js",
+        "settings": {
+          "foreground": "#F35A12",
+          // "fontStyle": "bold"
+        }
+      },      
+      {
+        "scope": "entity.name.type",
         "settings": {
           "foreground": "#D4AC0D",
           "fontStyle": "bold"
+        }
+      },      
+      {
+        "scope": ["support.function.js"],
+        "settings": {
+          "foreground": "#2FBDC2",
+          // "fontStyle": "bold"
+        }
+      },      
+      { 
+        // "scope": "support.class.console.js",
+        "settings": {
+          "foreground": "#79C70E",
+          "fontStyle": ""
         }
       },      
 
