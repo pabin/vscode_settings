@@ -1,5 +1,4 @@
 {
-  "editor.minimap.enabled": false,
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "window.zoomLevel": 0,
@@ -31,8 +30,11 @@
   // "editor.scrollbar.verticalScrollbarSize": 0,
   // "editor.scrollbar.horizontal": "hidden",
   // "editor.scrollbar.horizontalScrollbarSize": 0,    
+  // "workbench.editor.tabSizing": "shrink",
 
-  // "workbench.editor.tabSizing": "fit",
+  "workbench.editor.titleScrollbarSizing": "default",
+  "workbench.editor.tabSizing": "fit",
+
   "workbench.colorCustomizations": {
       // "list.inactiveSelectionBackground": "#C5DEF0",
       "sideBar.background": "#0A0A0A",
@@ -53,17 +55,13 @@
       "editor.selectionBackground": "#135564",
       "editor.selectionHighlightBackground": "#135564",
      
-      // "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
-      // "editor.findMatchHighlightBackground": "#ff7b00a1", //Current SEARCH MATCH
+      "editor.findMatchBackground": "#E74C3C", //Current SEARCH MATCH
+      "editor.findMatchHighlightBackground": "#135564", //Current SEARCH MATCH
 
+      "scrollbarSlider.background":"#9aa0",
+      "scrollbarSlider.activeBackground": "#f000",
+      "scrollbarSlider.hoverBackground": "#ff00",
 
-
-      // "scrollbarSlider.activeBackground": "#77D4CB",
-      // "scrollbarSlider.hoverBackground": "#8CE6DA",
-      // "badge.background": "#81CA91"
-
-      // "editor.selectionBackground": "#135564",
-      // "editor.selectionHighlightBackground": "#135564",
       "editor.lineHighlightBackground": "#1A1A1A",
       // "list.inactiveSelectionBackground": "#f0f",
       "editor.inactiveSelectionBackground": "#2A2A2A",
@@ -111,6 +109,7 @@
         "entity.other.attribute-name.tsx",
         "entity.other.attribute-name.ts",
         "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.html",
       ],
       "settings": {
           "foreground": "#F39C12",
@@ -160,7 +159,7 @@
         "scope": [
           "variable.other.property",
           "meta.attribute.python",
-          "punctuation.separator.key-value",
+          // "punctuation.separator.key-value",
           // "meta.object-literal.key.js",
           "variable.other.object.property.js",
           "variable.other.object.property.tsx",
@@ -180,19 +179,18 @@
           "meta.object-literal.key.js",
           "meta.object-literal.key.ts",
           "meta.object-literal.key.tsx",
+          "meta.jsx.children",
+          "punctuation.definition.tag.end",
+          "punctuation.definition.tag.begin",
         ],
-        // "scope": "meta.method.declaration.js",
         "settings": {
           "foreground": "#B9B4B4",
-          // "fontStyle": "bold"
         }
       },         
       {
         "scope": [
           "entity.name.function", 
-          "support.function.console.js",
-          "support.function.console.ts",
-          "support.function.console.tsx",
+
         ],
         "settings": {
           "foreground": "#3884F9",
@@ -231,7 +229,7 @@
       {
         "scope": "punctuation.separator.key-value",
         "settings": {
-          // "foreground": "#B5D005",
+          "foreground": "#E10F86",
           "fontStyle": "bold"
         }
       },   
@@ -258,6 +256,12 @@
           "support.function.js",
           "support.function.ts",
           "support.function.tsx",
+          "support.function.math.tsx",
+          "support.function.math.jsx",
+          "support.function.math.js",    
+          "support.function.console.js",
+          "support.function.console.ts",
+          "support.function.console.tsx",                
         ],
         "settings": {
           "foreground": "#2FBDC2",
@@ -265,31 +269,25 @@
         }
       },      
       { 
-        // "scope": "support.class.console.js",
+        "scope": "support.class.console.js",
         "settings": {
-          "foreground": "#79C70E",
+          // "foreground": "#79C70E",
           "fontStyle": ""
         }
       },      
-
       ],
-        
 
       // "types": "#2E86C1",
-      // "types": "#C0392B",
       "variables": "#B9B4B4",
       // "variables": "#B668E3",
       // "comments": "#98C379",
-      // "strings": "#D4AC0D",
       // "strings": "#95BB3E",
       "strings": "#2CB044",
-      // "strings": "#8E44AD",
       // "keywords": "#117A65",
       "keywords": "#FF6E00",
       // "numbers": "#2247EB",
       // "comments": "#6D929C",
       "functions": "#27AE60"
-      // "functions": "#D4AC0D"
   },
 
   // "bracketPairColorizer.showHorizontalScopeLine": false,
@@ -313,57 +311,22 @@
 
   "highlight-matching-tag.styles": {
     "opening": {
-      "full": {
-        "custom": {
-          "dark": {
-            "borderWidth": "0 0 2px 0",
-            "borderColor": "#DFDFDF",
-            "borderStyle": "solid",
-            "borderRadius": "4px",
-            "right": "10px"
-          },
-          "light": {
-            "borderWidth": "0 0 2px 0",
-            "borderColor": "brown",
-            "borderStyle": "solid",
-            "borderRadius": "4px",
-            "right": "10px"
-          }
-        }
-      },
-
-      // "left": {
-      //   "underline": "yellow"
-      // },
-      // "right": {
-      //   "surround": "#155FFA"
-      // },
-      // "name": {
-      //   "highlight": "rgba(180, 20, 80, 0.3)"
-      // }
+      "name": {
+        "highlight": "#135564",
+        // "highlight": "rgba(45, 235, 39, 0.3)",
+      }
     },
     "closing": {
-      "full": {
-        "custom": {
-          "dark": {
-            "borderWidth": "0 0 2px 0",
-            "borderColor": "#DFDFDF",
-            "borderStyle": "solid",
-            "borderRadius": "4px",
-            "right": "10px"
-          },
-          "light": {
-            "borderWidth": "0 0 2px 0",
-            "borderColor": "brown",
-            "borderStyle": "solid",
-            "borderRadius": "4px",
-            "right": "10px"
-          }
-        }
-      }
+      "name": {
+        // "highlight": "rgba(180, 20, 80, 0.3)"
+        "highlight": "#135564"
+      },
     }
   },
   "workbench.colorTheme": "Brogrammer",
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "editor.minimap.enabled": false,
   // "pigments.markerType": "background",
   // "editor.semanticHighlighting.enabled": false
 
