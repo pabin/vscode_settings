@@ -177,6 +177,7 @@
         "scope": "entity.other.inherited-class",
         "settings": {
           // "foreground": "#E74C3C",
+          "foreground": "#932CF5",
           "fontStyle": "", 
         }
       },  
@@ -291,7 +292,7 @@
             "right": "10px"
           }
         }
-      }
+      },
 
       // "left": {
       //   "underline": "yellow"
@@ -325,6 +326,7 @@
     }
   },
   "workbench.colorTheme": "Brogrammer",
+  // "pigments.markerType": "background",
   // "editor.semanticHighlighting.enabled": false
 
   // "highlightSelections.borderWidth": "2px"
