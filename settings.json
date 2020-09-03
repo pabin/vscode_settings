@@ -1,12 +1,12 @@
 {
-  "dart.debugExternalLibraries": true,
-  "dart.debugSdkLibraries": false,
+  // "dart.debugExternalLibraries": true,
+  // "dart.debugSdkLibraries": false,
   "window.zoomLevel": 0,
   "editor.fontSize": 17,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "window.menuBarVisibility": "toggle",
   "git.confirmSync": false,   
-  "dart.flutterSdkPath": "/home/raj/flutter",
+  // "dart.flutterSdkPath": "/home/raj/flutter",
   "liveServer.settings.donotShowInfoMsg": true,
   // "workbench.iconTheme": "material-icon-theme",
   "editor.occurrencesHighlight": false,
@@ -22,7 +22,7 @@
     "editor.tabSize": 2
   }, 
   "[python]": {
-    "editor.tabSize": 8
+    "editor.tabSize": 4
   },    
   
   "editor.renderIndentGuides": true,
@@ -30,10 +30,10 @@
   // "editor.scrollbar.verticalScrollbarSize": 0,
   // "editor.scrollbar.horizontal": "hidden",
   // "editor.scrollbar.horizontalScrollbarSize": 0,    
-  // "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabSizing": "shrink",
 
-  "workbench.editor.titleScrollbarSizing": "default",
-  "workbench.editor.tabSizing": "fit",
+  // "workbench.editor.titleScrollbarSizing": "default",
+  // "workbench.editor.tabSizing": "fit",
 
   "workbench.colorCustomizations": {
       // "list.inactiveSelectionBackground": "#C5DEF0",
@@ -46,7 +46,6 @@
       "activityBar.border": "#2F2F2F",
       "activityBar.background": "#0A0A0A",
       "statusBar.background": "#0A0A0A",
-      "statusBar.height": "20px",
       "statusBar.debuggingBackground": "#511f1f",
       "tab.activeBackground": "#0A0A0A",
 
@@ -250,18 +249,27 @@
           "foreground": "#D4AC0D",
           "fontStyle": "bold"
         }
-      },      
+      },  
+      {
+        "scope": "support.constant",
+        "settings": {
+          "foreground": "#8DC760",
+          "fontStyle": "bold"
+        }
+      },          
       {
         "scope": [
-          "support.function.js",
-          "support.function.ts",
-          "support.function.tsx",
-          "support.function.math.tsx",
-          "support.function.math.jsx",
-          "support.function.math.js",    
-          "support.function.console.js",
-          "support.function.console.ts",
-          "support.function.console.tsx",                
+          "support.function",
+          // "support.function.js",
+          // "support.function.ts",
+          // "support.function.tsx",
+          // "support.function.math.tsx",
+          // "support.function.math.jsx",
+          // "support.function.math.js",    
+          // "support.function.console.js",
+          // "support.function.console.ts",
+          // "support.function.console.tsx",   
+          "support.function.builtin",             
         ],
         "settings": {
           "foreground": "#2FBDC2",
@@ -327,9 +335,19 @@
   "bracketPairColorizer.showVerticalScopeLine": false,
   "bracketPairColorizer.showHorizontalScopeLine": false,
   "editor.minimap.enabled": false,
+  "typescript.tsdk": "",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 15,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
   // "pigments.markerType": "background",
   // "editor.semanticHighlighting.enabled": false
 
   // "highlightSelections.borderWidth": "2px"
   // "textmarker.enableWholeMatch": true
+
+  "vscode_custom_css.imports": ["file:///home/raj/.vscode.css"],
+  "vscode_custom_css.policy": true,
+  "breadcrumbs.filePath": "off",
+
 }
