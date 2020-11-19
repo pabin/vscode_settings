@@ -1,17 +1,20 @@
 {
   // "dart.debugExternalLibraries": true,
   // "dart.debugSdkLibraries": false,
+  // "workbench.editor.showTabs": false,
+  // "explorer.compactFolders": false,
+
   "window.zoomLevel": 0,
   "editor.fontSize": 17,
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "window.menuBarVisibility": "toggle",
   "git.confirmSync": false,   
   // "dart.flutterSdkPath": "/home/raj/flutter",
   "liveServer.settings.donotShowInfoMsg": true,
   // "workbench.iconTheme": "material-icon-theme",
   "editor.occurrencesHighlight": false,
-  "editor.selectionHighlight": false,
-  
+  "diffEditor.renderSideBySide": false,
+
   "[typescript]": {
     "editor.tabSize": 2
   },  
@@ -26,14 +29,9 @@
   },    
   
   "editor.renderIndentGuides": true,
-  
-  // "editor.scrollbar.verticalScrollbarSize": 0,
-  // "editor.scrollbar.horizontal": "hidden",
-  // "editor.scrollbar.horizontalScrollbarSize": 0,    
-  "workbench.editor.tabSizing": "shrink",
 
   // "workbench.editor.titleScrollbarSizing": "default",
-  // "workbench.editor.tabSizing": "fit",
+  "workbench.editor.tabSizing": "shrink",
 
   "workbench.colorCustomizations": {
       // "list.inactiveSelectionBackground": "#C5DEF0",
@@ -80,6 +78,7 @@
         "variable.language.super.js",
         "variable.language.super.ts",
         "variable.language.super.tsx",
+        "variable.language.super.cs",
       ],
       "settings": {
       "foreground": "#286EDC",
@@ -89,7 +88,8 @@
       {
         "scope": [
           "variable.parameter.function-call",
-          "variable.parameter.function.language.python"
+          "variable.parameter.function.language.python",
+          "variable.parameter.function.language.cs"
         ],
         "settings": {
             // "foreground": "#FF6E00",
@@ -109,6 +109,7 @@
         "entity.other.attribute-name.ts",
         "entity.other.attribute-name.jsx",
         "entity.other.attribute-name.html",
+        // "entity.other.attribute-name.cs",
       ],
       "settings": {
           "foreground": "#F39C12",
@@ -133,7 +134,8 @@
           "variable.language.super.tsx",
           "variable.language.super.ts",
           "support.function.console.tsx",
-          "support.function.console.ts"
+          "support.function.console.ts",
+          // "support.function.console.cs"
           // "storage.type.js"
         ],
         "settings": {
@@ -163,6 +165,7 @@
           "variable.other.object.property.js",
           "variable.other.object.property.tsx",
           "variable.other.object.property.ts",
+          "variable.other.object.property.cs",
           "support.class.console.js",
           "support.class.console.tsx",
           "support.class.console.ts",
@@ -178,6 +181,7 @@
           "meta.object-literal.key.js",
           "meta.object-literal.key.ts",
           "meta.object-literal.key.tsx",
+          // "meta.object-literal.key.cs",
           "meta.jsx.children",
           "punctuation.definition.tag.end",
           "punctuation.definition.tag.begin",
@@ -210,6 +214,7 @@
           "variable.other.readwrite.js",
           "variable.other.readwrite.ts",
           "variable.other.readwrite.tsx",
+          // "variable.other.readwrite.cs",
         ],
 
         "settings": {
@@ -335,7 +340,6 @@
   "bracketPairColorizer.showVerticalScopeLine": false,
   "bracketPairColorizer.showHorizontalScopeLine": false,
   "editor.minimap.enabled": false,
-  "typescript.tsdk": "",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 15,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -348,6 +352,12 @@
 
   "vscode_custom_css.imports": ["file:///home/raj/.vscode.css"],
   "vscode_custom_css.policy": true,
-  "breadcrumbs.filePath": "off",
-
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": true,
+  "ActiveFileInStatusBar.fullpath": false,
+  "ActiveFileInStatusBar.revealFile": true,
+  "editor.glyphMargin": false,
+  "workbench.sideBar.location": "left",
+  "python.showStartPage": false,
 }
