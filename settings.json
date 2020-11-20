@@ -361,3 +361,74 @@
   "workbench.sideBar.location": "left",
   "python.showStartPage": false,
 }
+
+
+
+
+
+
+
+
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+;",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "ctrl+' down",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+' left",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "ctrl+' right",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+' up",
+        "command": "workbench.action.splitEditorUp"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.duplicateSelection"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "alt+'",
+        "command": "workbench.view.extensions"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "-workbench.view.extensions"
+    },
+    {
+        "key": "alt+enter",
+        "command": "extension.jumpy-word"
+    },
+    {
+        "key": "alt+/",
+        "command": "extension.jumpy-exit"
+    }
+]
