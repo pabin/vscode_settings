@@ -1,11 +1,13 @@
 {
-  "editor.fontSize": 17,
+    "editor.fontSize": 17,
+    "editor.snippetSuggestions": "top",
     "window.menuBarVisibility": "toggle",
     "git.confirmSync": false,
     // "dart.flutterSdkPath": "/home/raj/flutter",
     "liveServer.settings.donotShowInfoMsg": true,
     // "workbench.iconTheme": "material-icon-theme",
     "editor.occurrencesHighlight": false,
+    "window.titleBarStyle": "custom",
 
     "[typescript]": {
       "editor.tabSize": 2,
@@ -339,7 +341,6 @@
     "workbench.colorTheme": "Brogrammer",
     "bracketPairColorizer.showVerticalScopeLine": false,
     "bracketPairColorizer.showHorizontalScopeLine": false,
-    "editor.minimap.enabled": false,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontSize": 15,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -353,7 +354,6 @@
     "vscode_custom_css.imports": ["file:///home/raj/.vscode.css"],
     "vscode_custom_css.policy": true,
     "breadcrumbs.showArrays": false,
-    "breadcrumbs.enabled": false,
     "workbench.statusBar.visible": true,
     "ActiveFileInStatusBar.fullpath": false,
     "ActiveFileInStatusBar.revealFile": true,
@@ -385,6 +385,21 @@
     ],
     "debug.onTaskErrors": "debugAnyway",
     "debug.focusEditorOnBreak": false,
-    "debug.showBreakpointsInOverviewRuler": true,
-    "workbench.activityBar.visible": false,
+    "debug.showBreakpointsInOverviewRuler": false,
+    "editor.minimap.enabled": false,
+    "settingsSync.ignoredSettings": [
+
+
+
+    ],
+    "breadcrumbs.enabled": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }, // for the extra file navigain on top below the tabs
+    "editor.glyphMargin": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "java.debug.settings.exceptionBreakpoint.skipClasses": [
+
+    ],
+    "workbench.activityBar.visible": false, // for the break points (on left of line numbers
   }
