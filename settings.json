@@ -32,8 +32,8 @@
   },
   "[html]": {
     "editor.formatOnSave": true,
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.defaultFormatter": "vscode.html-language-features"
 },
 
   // "workbench.editor.titleScrollbarSizing": "default",
@@ -410,5 +410,9 @@
   ],
   "editor.codeActionsOnSave": {
 
-  }, // for the break points (on left of line numbers
+  },
+  "workbench.activityBar.location": "hidden",
+  "workbench.settings.applyToAllProfiles": [
+    
+  ], // for the break points (on left of line numbers
 }
